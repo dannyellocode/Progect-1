@@ -1,0 +1,342 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  height: 64px;
+  display: flex;
+  justify-content: flex;
+
+  align-items: center;
+  height: 50px;
+  padding: 8px;
+  background-color: #ffffff; /* Просто для наглядности */
+  margin-bottom: 20px;
+}
+.left-section {
+  width: auto;
+  height: auto;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu {
+  height: 47px;
+  width: 47px;
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: none;
+  padding: 15px;
+  color: #5e5a5a;
+}
+
+.menu:hover {
+  cursor: pointer;
+  border: #f9f2f2c3;
+  background-color: #f7f4f4c3;
+}
+
+.google-logo {
+  height: 25px;
+  width: 70px;
+  display: flex;
+  justify-content: start;
+  align-content: end;
+  margin-left: 5px;
+  margin-right: 1.5px;
+}
+.logo-text {
+  font-size: 23px;
+  width: 120px;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+
+.right-section {
+  width: 100%;
+  height: 100hv;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.login-button {
+  height: 40px;
+  width: 100px;
+  background-color: rgba(71, 94, 196, 0.992);
+  color: #ffffff;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Google Sans Text", Roboto, Helvetica, Arial, sans-serif;
+  font-stretch: 100%;
+}
+.login-button:hover {
+  cursor: pointer;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+  opacity: 1.9;
+}
+.login-button:active {
+  /* Уменьшаем кнопку до 95% от оригинала при клике */
+  transform: scale(0.95);
+  /* про этот псевдо класс я узнал недавно и использовал подсказку гпт чтобы посмотреть как это работает */
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-buttons {
+  width: auto;
+  height: auto;
+  align-items: center;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin-right: 10px;
+}
+.appgoogle {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  color: rgb(81, 82, 83);
+}
+
+.settings {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: none;
+  color: #5e5a5a;
+  font-weight: bold;
+}
+
+.appgoogle:hover {
+  cursor: pointer;
+  border: #f1ececc3;
+  background-color: #f6f3f3c3;
+}
+.settings:hover {
+  cursor: pointer;
+  border: #f6f1f1c3;
+  background-color: #f4f0f0c3;
+}
+
+.navigation {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 20px;
+  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bwebsite:hover,
+.bdocument:hover,
+.bimage:hover,
+.btext:hover {
+  cursor: pointer;
+  background-color: #f7f9ff;
+}
+
+.bwebsite,
+.bdocument,
+.bimage,
+.btext {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #c8c4c4;
+  border-style: groove;
+  border-width: 1px;
+  border-radius: 20px;
+  background-color: transparent;
+  border-color: #dfdede;
+  color: #1851e1;
+  font-family: "Google Sans Text", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btext {
+  width: 100px;
+}
+.spantext {
+  margin: 5px;
+}
+.bimage {
+  width: 150px;
+}
+
+.spanimage {
+  margin-left: 5px;
+}
+
+.bdocument {
+  width: 125px;
+}
+.spandocument {
+  margin-left: 5px;
+}
+
+.bwebsite {
+  width: 100px;
+}
+.spanwebsite {
+  margin-left: 5px;
+}
+
+.main-content {
+  display: flexbox;
+  padding-right: 20px;
+  padding-left: 110px;
+}
+.languagebox {
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  height: 50px;
+  width: 45%;
+  padding-left: 8px;
+  gap: 1px;
+}
+
+.languagebox2 {
+  display: flex;
+  width: auto;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  height: 50px;
+  width: 45%;
+  padding-left: 8px;
+  gap: 1px;
+}
+
+.lang,
+.lang2 {
+  flex: 1;
+  height: 40px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #5e5b5b;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.lang:hover,
+.lang2:hover {
+  cursor: pointer;
+  background-color: rgb(247, 244, 246);
+  color: #000000;
+  font-weight: 510;
+}
+
+.strelka-1,
+.strelka-2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+  border: none;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  color: #747272;
+  font-size: 25px;
+  transform: rotate(270deg);
+  border-radius: 18px;
+}
+
+.strelka-1:hover,
+.strelka-2:hover {
+  background-color: #f5f4f4;
+  color: #000000;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50px;
+  color: #747272;
+  margin-left: 260px;
+  margin-right: 30px;
+}
+
+.switch:hover {
+  background-color: #f9f9f9;
+  color: #000000;
+}
+.frames-content {
+  display: flex;
+  gap: 50px;
+}
+.frames-content1,
+.frames-content2 {
+  display: flexbox;
+  height: 180px;
+  width: 600px;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: #a7a4a4;
+  border-radius: 8px;
+}
+.frames-content2 {
+  background-color: #e3ecff;
+  border: transparent;
+}
+
+.input-1,
+.input-2 {
+  width: 90%;
+  margin-left: 5px;
+  height: 70%;
+  font-size: 25px;
+  outline: none;
+  border-color: transparent;
+}
+
+.mic-frame {
+  display: flex;
+  justify-items: flex-start;
+  align-items: flex-start;
+  border-radius: 11px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.mic-frame:hover {
+  background-color: #f3f4f6;
+}
+
+.keyboard-frame {
+  display: flex;
+  justify-items: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+  margin-left: 100px;
+}
