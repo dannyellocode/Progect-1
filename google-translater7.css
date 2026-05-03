@@ -1,0 +1,380 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex;
+
+  align-items: center;
+  height: 50px;
+  padding: 8px;
+
+  margin-bottom: 20px;
+}
+.left-section {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu-button {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 5px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: none;
+  padding: 15px;
+  color: #5e5a5a;
+}
+
+.menu-icon {
+  height: 20px;
+  width: 20px;
+}
+.menu-button:hover {
+  cursor: pointer;
+  border: #f9f2f2c3;
+  background-color: #f7f4f4c3;
+}
+
+.google-logo {
+  height: 25px;
+  width: 70px;
+  display: flex;
+  justify-content: start;
+  align-content: end;
+  margin-left: 5px;
+  margin-right: 1.5px;
+}
+.logo-text {
+  font-size: 23px;
+  width: 120px;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+
+.right-section {
+  width: 100%;
+  height: 100hv;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.login-button {
+  height: 40px;
+  width: 100px;
+  background-color: rgba(71, 94, 196, 0.992);
+  color: #ffffff;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Google Sans Text", Roboto, Helvetica, Arial, sans-serif;
+  font-stretch: 100%;
+}
+.login-button:hover {
+  cursor: pointer;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.15);
+  opacity: 1.9;
+}
+.login-button:active {
+  /* Уменьшаем кнопку до 95% от оригинала при клике */
+  transform: scale(0.95);
+  /* про этот псевдо класс я узнал недавно и использовал подсказку гпт чтобы посмотреть как это работает */
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.right-buttons {
+  width: auto;
+  height: auto;
+  align-items: center;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin-right: 10px;
+}
+.appgoogle {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  color: rgb(81, 82, 83);
+}
+
+.settings {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: none;
+  color: #5e5a5a;
+  font-weight: bold;
+}
+
+.appgoogle:hover {
+  cursor: pointer;
+  border: #f1ececc3;
+  background-color: #f6f3f3c3;
+}
+.settings:hover {
+  cursor: pointer;
+  border: #f6f1f1c3;
+  background-color: #f4f0f0c3;
+}
+
+.navigation {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-bottom: 20px;
+  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bwebsite:hover,
+.bdocument:hover,
+.bimage:hover,
+.btext:hover {
+  cursor: pointer;
+  background-color: #f7f9ff;
+}
+
+.bwebsite,
+.bdocument,
+.bimage,
+.btext {
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #c8c4c4;
+  border-style: groove;
+  border-width: 1px;
+  border-radius: 20px;
+  background-color: transparent;
+  border-color: #dfdede;
+  color: #1851e1;
+  font-family: "Google Sans Text", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btext {
+  width: 100px;
+}
+.spantext {
+  margin: 5px;
+}
+.bimage {
+  width: 150px;
+}
+
+.spanimage {
+  margin-left: 5px;
+}
+
+.bdocument {
+  width: 125px;
+}
+.spandocument {
+  margin-left: 5px;
+}
+
+.bwebsite {
+  width: 100px;
+}
+.spanwebsite {
+  margin-left: 5px;
+}
+
+.main-content {
+  padding-right: 70px;
+  padding-left: 110px;
+}
+.ABCW {
+  display: flexbox;
+  align-content: center;
+  width: auto;
+}
+.languagebox {
+  display: flex;
+  width: 100%;
+}
+.languagebox1 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 50px;
+  padding-right: 80px;
+  padding-left: 8px;
+}
+
+.languagebox2 {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+
+  align-items: center;
+  height: 50px;
+  padding-right: 100px;
+}
+
+.lang,
+.lang2 {
+  height: 40px;
+  border: none;
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  color: #747474;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.lang:hover,
+.lang2:hover {
+  cursor: pointer;
+  background-color: rgb(247, 244, 246);
+  color: #000000;
+  font-weight: 510;
+}
+
+.strelka-1,
+.strelka-2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+  border: none;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  color: #747272;
+  font-size: 25px;
+  transform: rotate(270deg);
+  border-radius: 18px;
+}
+
+.strelka-1:hover,
+.strelka-2:hover {
+  background-color: #f5f4f4;
+  color: #000000;
+}
+.switch-div {
+  display: flex;
+  width: 100px;
+  padding-left: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+.switch {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50px;
+  color: #747272;
+}
+
+.switch:hover {
+  background-color: #f9f9f9;
+  color: #000000;
+}
+.frames-content {
+  display: flex;
+  gap: 20px;
+}
+.frames-content1,
+.frames-content2 {
+  display: flex;
+  height: 180px;
+  width: 100%;
+  border-style: solid;
+  border-width: 0.05px;
+  border-color: #e0dfdf;
+  border-radius: 25px;
+  padding-right: 30px;
+}
+.frames-content2 {
+  background-color: #e3ecff;
+  border-color: #d5e3ff;
+}
+
+.input-1,
+.input-2 {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 90%;
+
+  height: 75%;
+  font-size: 15px;
+  outline: none;
+  border-color: transparent;
+}
+
+.mic-frame {
+  display: flex;
+  border-radius: 11px;
+  padding: 0px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.mic-frame:hover {
+  background-color: #f3f4f6;
+}
+
+.keyboard-frame {
+  display: flex;
+
+  border-radius: 11px;
+  padding: 0px;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.keyboard-frame:hover {
+  background-color: #f3f4f6;
+}
+
+.foot {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-right: 20px;
+  margin-top: 100px;
+}
+.star,
+.history {
+  height: 80px;
+  width: 80px;
+  border: 0.5px solid;
+  background-color: transparent;
+  border-radius: 50px;
+  color: rgb(113, 113, 113);
+  border-color: #ebe8e8;
+}
+
+.star:hover,
+.history:hover {
+  cursor: pointer;
+}
