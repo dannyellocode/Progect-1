@@ -154,19 +154,16 @@ body {
   background-color: transparent;
   border-color: #dfdede;
   color: #1851e1;
-  font-family: "Google Sans Text", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  font-weight: 500;
 }
 
 .btext {
-  width: 100px;
+  width: auto;
 }
 .spantext {
   margin: 5px;
 }
 .bimage {
-  width: 150px;
+  width: auto;
 }
 
 .spanimage {
@@ -174,14 +171,14 @@ body {
 }
 
 .bdocument {
-  width: 125px;
+  width: auto;
 }
 .spandocument {
   margin-left: 5px;
 }
 
 .bwebsite {
-  width: 100px;
+  width: auto;
 }
 .spanwebsite {
   margin-left: 5px;
@@ -192,11 +189,6 @@ body {
   padding-left: 110px;
 }
 
-.languagebox {
-  display: flex;
-  width: 100%;
-  gap: 10px;
-}
 .languagebox1 {
   display: flex;
   width: 100%;
@@ -215,13 +207,12 @@ body {
   padding-left: 8px;
 }
 
-.languagebox2 {
+.output-languages {
   display: flex;
   width: 100%;
   justify-content: start;
   align-items: center;
   align-items: center;
-  height: 50px;
 }
 
 .lang,
