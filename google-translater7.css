@@ -210,7 +210,7 @@ body {
   width: 100%;
   justify-content: flex-start;
   align-items: center;
-  height: 50px;
+
   padding-right: 80px;
   padding-left: 8px;
 }
@@ -385,9 +385,4 @@ body {
   border-radius: 50px;
   color: rgb(113, 113, 113);
   border-color: #ebe8e8;
-}
-
-.star:hover,
-.history:hover {
-  cursor: pointer;
 }
