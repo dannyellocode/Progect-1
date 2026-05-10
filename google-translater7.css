@@ -148,7 +148,7 @@ body {
   justify-content: center;
   align-items: center;
   border-bottom: #c8c4c4;
-  border-style: groove;
+  border-style: solid;
   border-width: 1px;
   border-radius: 20px;
   background-color: transparent;
@@ -357,7 +357,11 @@ body {
 .keyboard-frame:hover {
   background-color: #f3f4f6;
 }
+.history-div {
+  display: flex;
 
+  flex-direction: column;
+}
 .foot {
   height: 400px;
   width: 100%;
@@ -376,4 +380,20 @@ body {
   border-radius: 50px;
   color: rgb(113, 113, 113);
   border-color: #ebe8e8;
+  cursor: pointer;
+}
+
+.star:hover,
+.history:hover {
+  background-color: #f3f4f6;
+  color: #000000;
+}
+
+.history-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #747474;
 }
