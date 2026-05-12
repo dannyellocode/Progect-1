@@ -185,8 +185,10 @@ body {
 }
 
 .main-content {
-  padding-right: 70px;
-  padding-left: 110px;
+  min-height: 100%;
+  padding-inline: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .languagebox1 {
@@ -283,8 +285,6 @@ body {
 .frames-content {
   display: flex;
   gap: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 .frames-content1,
 .frames-content2 {
@@ -396,4 +396,26 @@ body {
   margin-top: 15px;
   font-size: 18px;
   color: #747474;
+}
+
+.feedback {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  color: #656161;
+  cursor: pointer;
+}
+
+.feedback-text {
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+  padding: 20px;
+}
+
+.feedback:hover {
+  text-underline-position: below;
+  text-decoration: underline;
 }
